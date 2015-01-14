@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+body{
+	min-width: 960px;
+}
+#header{
+	color: rgb(142, 142, 142);
+	display: block;
+	font-family: 'Open sans', sans-serif;
+	font-size: 15px;
+	height: 42px;
+	padding-bottom: 25px;
+	padding-top: 52px;
+	text-align: center;
+}
+
+#siteTitle{
+	color: rgb(72, 72, 72);
+	cursor: auto;
+	display: inline-block;
+	font-family: Raleway, sans-serif;
+	font-size: 36px;
+	height: auto;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: top;
+	min-width: 960px;
+}
+
+#menu{
+	color: rgb(142, 142, 142);
+	font-family: Raleway, sans-serif;
+	font-size: 13px;
+	height: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 960px;
+	margin: auto;
+	margin-bottom: 40px;
+}
+#navMenuList{
+	list-style: none;
+	display: inline-block;
+	margin: 0 30px;
+}
+.selected{
+	background-color: #eee;
+	color: rgb(72, 72, 72);
+}
+.navMenuItem{
+	display: inline-block;
+	padding: 10px 14px;
+}
+.hLine{
+	width: 183px;
+	background-color: rgb(142, 142, 142);
+	height: 1px;
+	display: inline-block;
+}
+#banner{
+	height: 482px;
+	width: 100%;
+	background-image: url('images/bgPic.png');
+	background-color: #000;  	
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center; 
+}
+#bannerText{
+	width: 550px;
+	padding: 100px 0;
+	height: 282px;
+	margin: auto;
+	text-align: center; 
+}
+#bannerText h2{
+	color: #fff;
+	font-family: Alice, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+}
+#bannerText p{
+	font-family: 'Open sans', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	margin: 45px 0;
+}
+#bannerButton{
+	text-transform: uppercase;
+	background-color: rgb(81, 153, 168);
+	height: 42px;
+	padding: 0 25px;
+	display: inline-block;
+	font-family: 'Open sans', sans-serif;
+	color: #fff;
+	font-size: 15px;
+	line-height: 42px;
+	cursor: pointer;
+}
+#pageContent{
+	margin: 20px auto 100px auto;
+	width: 960px;
+}
+#pageContent h2{
+	color: rgb(72, 72, 72);
+	font-family: Alice, sans-serif;
+	font-size: 26px;
+	margin-bottom: 10px;
+	text-decoration: underline;
+}
+#pageContent p{
+	font-family: 'Open sans', sans-serif;
+	font-size: 15px;
+	color: rgb(142, 142, 142);
+}
+#footer{
+	width: 100%;
+}
+#footerTop{
+	color: rgb(142, 142, 142);
+	height: 100px;
+	width: 100%;
+	background-color: rgb(245, 245, 245);
+}
+#footerBottom{
+	height: 50px;
+	width: 100%;
+	background-color: #555;
+	line-height: 50px;
+	font-family: 'Open sans', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #aaa;
+}
+#smallBanner{
+	height: 302px;
+	width: 100%;
+	background-image: url('images/bgPic.png');
+	background-color: #000;  	
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center; 
+}
+.menuLink hover{
+	background-color: #eee;
+}
+
+input[type=text]{
+	height: 27px;
+	font-size: 13px;
+	margin: 8px 0;
+	border: solid 1px #d0d0d0;
+	border-radius: 2px;
+	width: 420px;
+	padding: 0 5px;
+}
+
+.formSectionTitle{
+	font-family: 'Open sans', sans-serif;
+	font-size: 15px;
+	color: #8e8e8e;
+}
+
+.formInputDescription{
+	font-family: 'Open sans', sans-serif;
+	font-size: 11px;
+	color: #8e8e8e;
+}
+
+.formTextArea{
+	font-size: 13px;
+	margin: 8px 0;
+	border: solid 1px #d0d0d0;
+	border-radius: 2px;
+	width: 424px;
+	max-width: 424px;
+	min-width: 424px;
+	padding: 5px;
+}
+
+#contactTable{
+	display: inline-block;
+	margin: auto;
+}
+
+#formButton{
+	background-color: rgb(81, 153, 168);
+	height: 32px;
+	padding: 0 15px;
+	display: inline-block;
+	font-family: 'Open sans', sans-serif;
+	color: #fff;
+	font-size: 15px;
+	line-height: 32px;
+	border: none;
+	cursor: pointer;
+	float: left;
+}
+
+.radioOption{
+	margin:8px 0;
+	font-size: 12px;
+	font-family: 'Open sans', sans-serif;
+	color: #8e8e8e;
+}
+
+#formError{
+	margin:7px 0 0 100px; 
+	visibility: hidden;
+}
+
+
